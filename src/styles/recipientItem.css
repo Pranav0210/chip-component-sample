@@ -1,0 +1,40 @@
+.recipient-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 2px solid #ffffff;
+    background-color: #d8d6d6;
+    border-radius: 25%;
+  }
+  
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .details {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .remove-icon {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #080808;
+    margin: 0px 5px;
+  }
+
+  .remove-icon:hover {
+    background-color: #bebebe;
+  }
+
+  
