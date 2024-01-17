@@ -1,8 +1,7 @@
 .recipient-item {
-    display: flex;
+    display: grid;
     align-items: center;
     padding: 8px;
-    border: 2px solid #ffffff;
     background-color: #d8d6d6;
     border-radius: 25%;
   }
@@ -12,11 +11,6 @@
     height: 30px;
     border-radius: 50%;
     margin-right: 5px;
-  }
-  
-  .details {
-    display: flex;
-    gap: 8px;
   }
   
   .name {

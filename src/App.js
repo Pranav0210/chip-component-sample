@@ -1,5 +1,5 @@
 import React from 'react';
-import Chip from './components/ChipComponent';
+import Chip from './components/ChipComponent.tsx';
 
 function App() {
   return(
